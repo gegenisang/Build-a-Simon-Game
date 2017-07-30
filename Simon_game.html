@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Build a Simon Game</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="simon_game.css">
+
+</head>
+
+<body>
+  <div class="box">
+    <div class="btn" id="yellow"></div>
+    <div class="btn" id="red"></div>
+    <div class="btn" id="green"></div>
+    <div class="btn" id="blue"></div>
+    <div class="circle">
+      <div class="white">
+        <h3>Simon</h3>
+        <div class="btns">
+          <div class="showMessage">
+            <p class="message color-off">- -</p>
+            <span>COUNT</span>
+          </div>
+          <div class="start">
+            <p><em id="start"></em></p>
+            <span>START</span>
+          </div>
+          <div class="strict">
+            <span class="dot"></span>
+            <p>
+              <em id="strict"></em></p>
+            <span>STRICT</span>
+          </div>
+        </div>
+        <div class="footer">
+          <span>OFF</span>
+          <div class="off-on">
+            <p class="onOff">
+              <p>
+          </div>
+          <span>ON</span>
+        </div>
+      </div>
+    </div>
+  </div>
+ <script src="jquery-3.2.1.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="simon_game.js"></script>
+</body>
+
+</html>
